@@ -7,7 +7,7 @@ describe('Login Test', function() {
     let driver;
 
     before(async function() {
-        this.timeout(30000); // Đặt timeout cho việc khởi tạo driver
+        this.timeout(30000); // Đặt timeout cho việc khởi tạo driver bvggy
         try {
             const chromeOptions = new chrome.Options();
 
